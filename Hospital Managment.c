@@ -71,7 +71,7 @@ struct medicine
 };
 int Login(char Username[100],char Password[100])
 {
-    if(strcmp(Username,"123")==0&&strcmp(Password,"123")==0)return 1;
+    if(strcmp(Username,"admin")==0&&strcmp(Password,"123")==0)return 1;
     else return 0;
 }
 int main()
